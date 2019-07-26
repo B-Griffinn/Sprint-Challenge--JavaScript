@@ -148,7 +148,7 @@ The zoos need to know their total animal population across the United States.  F
 const populationTotal = [];
 let totalPop = zooAnimals.reduce((acc, popCurrItem) => {return acc + popCurrItem.population;}, 0);
 populationTotal.push(totalPop);
-console.log(populationTotal);
+console.log('The total population of zoo animals is: ' + populationTotal);
 
 
 /* 

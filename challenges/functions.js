@@ -27,8 +27,8 @@ function greeting(first, last) {
   return `Hello ${first} ${last}, nice to meet you!`;
 }
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
-console.log(consume(2,2,add)); // 4
-console.log(consume(10,16,multiply)); // 160
+console.log('2 + 2 = ' + consume(2,2,add)); // 4
+console.log('10 * 16 = ' + consume(10,16,multiply)); // 160
 console.log(consume("Mary","Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
 
 
